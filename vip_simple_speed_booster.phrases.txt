@@ -1,0 +1,8 @@
+"Phrases"
+{
+	"Menu. Display"
+	{
+		"en"			"Bhop speed booster"
+		"ru"			"Ускоритель бхопа"
+    }
+}

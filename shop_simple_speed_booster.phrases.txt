@@ -1,0 +1,13 @@
+"Phrases"
+{
+	"Menu. Category Display"
+	{
+		"en"			"Abilities"
+		"ru"			"Способности"
+    }
+	"Menu. Item Display"
+	{
+		"en"			"Bhop speed booster"
+		"ru"			"Ускоритель бхопа"
+    }
+}
