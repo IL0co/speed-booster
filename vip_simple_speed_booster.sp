@@ -14,7 +14,7 @@ public Plugin myinfo =
 	url			= "https://github.com/IL0co"
 }
 
-ConVar 	cvar_Enable, cvar_Bonus, cvar_delay;
+ConVar 	cvar_Enable, cvar_delay;
 
 bool cwEnable;
 float cwdelay, iBonus[MAXPLAYERS+1];
@@ -34,7 +34,7 @@ public void OnPluginStart()
 	cwEnable = cvar_Enable.BoolValue;
 
 	(cvar_delay = CreateConVar("sm_vip_simple_booster_delay", "0.1", "Заддержка перед добавлением скорости", _, true, 0.01, true, 1.0)).AddChangeHook(OnConVarChanged);
-	cwdelay = cvar_Bonus.FloatValue;
+	cwdelay = cvar_delay.FloatValue;
 
 	if(VIP_IsVIPLoaded())	
 	{
